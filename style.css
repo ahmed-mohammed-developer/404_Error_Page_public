@@ -1,0 +1,62 @@
+*{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+body{
+     font-family: "Open Sans", sans-serif;
+     font-optical-sizing: auto;
+}
+.brandname{
+     font-size: 30px !important;
+     letter-spacing: 1.5px !important;
+     color: rgba(0, 0, 0, 0.85);
+     font-style: italic;
+}
+.brandname span{
+     font-weight: 700 !important;
+}
+.nav-item a {
+     font-size: 25px !important;
+     margin: 0 10px 0 10px;
+     letter-spacing: 0.45px !important;
+     color: #868686 !important;
+}
+.buttonNav{
+     width: 200px;
+     background-color: #63c2e9;
+     border-radius: 40px;
+     text-align: center;
+     
+}
+.buttonNav button {
+     padding: 5px !important;
+     font-weight: bold;
+     color: #fff !important;
+     font-size: 25px !important;
+
+}
+@media (width < 992px) {
+     .buttonNav{
+          background-color: transparent;
+          margin: 0 !important;
+          padding: 0;
+          text-align: left;
+     }
+     .buttonNav button {
+          font-weight: bold !important;
+          color: #63c2e9 !important;
+          font-size: 25px !important;
+}
+}
+h1 {
+     font-size: 80px;
+     font-weight: bold;
+}
+p {
+     font-size: 25px;
+     line-height: 44px;
+     letter-spacing: 0.45px;
+     color: #868686;
+     padding: 30px 0 30px 0;
+}
