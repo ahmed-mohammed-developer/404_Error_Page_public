@@ -89,3 +89,13 @@ img{
           font-size: 15px;
      }
 }
+@media (width < 331px) {
+     .brandname{
+          font-size: 20px !important;
+     }
+}
+@media (width < 264px) {
+     .brandname{
+          font-size: 15px !important;
+     }
+}
