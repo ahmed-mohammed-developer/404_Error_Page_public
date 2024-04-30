@@ -60,3 +60,32 @@ p {
      color: #868686;
      padding: 30px 0 30px 0;
 }
+img{
+     max-width: 100%;
+     display: block;
+      margin: auto
+}
+.bt-2{
+     padding:10px 20px;
+     width: fit-content;
+     border-radius: 40px;
+     background-color: #63c2e9;
+     color: #fff;
+     border: none;
+}
+@media (width < 538px) {
+     h1{
+          font-size: 50px;
+     }
+     p {
+          font-size: 20px;
+     }
+}
+@media (width < 380px) {
+     h1{
+          font-size: 40px;
+     }
+     p {
+          font-size: 15px;
+     }
+}
